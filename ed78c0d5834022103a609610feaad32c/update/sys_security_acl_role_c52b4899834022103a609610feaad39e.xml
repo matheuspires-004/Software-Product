@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-01 18:51:05</sys_created_on>
+        <sys_id>c52b4899834022103a609610feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_779492_softwar_0_agendamentos.x_779492_softwar_0.admin</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_security_acl display_value="x_779492_softwar_0_agendamentos">452b4899834022103a609610feaad39b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c52b4899834022103a609610feaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-01 18:51:05</sys_updated_on>
+        <sys_user_role display_value="x_779492_softwar_0.admin" name="x_779492_softwar_0.admin">fd78c0d5834022103a609610feaad35e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
