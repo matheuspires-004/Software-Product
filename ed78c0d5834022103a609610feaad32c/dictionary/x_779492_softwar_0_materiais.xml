@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9edf9bbd838022103a609610feaad36f" label="Materiais" max_length="40" name="x_779492_softwar_0_materiais" type="collection">
+        <element display="true" label="Nome" max_length="200" name="nome" type="string"/>
+        <element default="true" label="Ativo" max_length="40" name="ativo" type="boolean"/>
+    </element>
+</database>

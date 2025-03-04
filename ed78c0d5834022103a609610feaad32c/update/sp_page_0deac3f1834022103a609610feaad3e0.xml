@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>main.page, main.body {&#13;
+  height: 99vh;&#13;
+  min-height: 100%;&#13;
+  padding-top: 0px !important;&#13;
+}&#13;
+&#13;
+@media(max-width: 767px) {&#13;
+  main.page, main.body {&#13;
+    height: auto;&#13;
+    min-height: 99vh;&#13;
+  }&#13;
+}&#13;
+&#13;
+section.page {&#13;
+  background-image: url('x_779492_softwar_0.background-login-page.png');&#13;
+  background-position: center center;&#13;
+  background-size: cover;&#13;
+  background-repeat: no-repeat;&#13;
+  background-color: #3A3F50;&#13;
+}&#13;
+&#13;
+section.page main.body:before {&#13;
+  display: block;&#13;
+  background-color: #3A3F50;&#13;
+  opacity: 0.75;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>login_page</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description>Página de login do portal Software Product</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:06:20</sys_created_on>
+        <sys_id>0deac3f1834022103a609610feaad3e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>login_page</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_page_0deac3f1834022103a609610feaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:16:21</sys_updated_on>
+        <title>Login Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=0deac3f1834022103a609610feaad3e0"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0deac3f1834022103a609610feaad3e0</documentkey>
+        <fieldname>dynamic_title_structure</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:06:20</sys_created_on>
+        <sys_id>3c0b8fb1834022103a609610feaad3c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:06:20</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0deac3f1834022103a609610feaad3e0</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:06:20</sys_created_on>
+        <sys_id>b80b8fb1834022103a609610feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:06:20</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value>Página de login do portal Software Product</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0deac3f1834022103a609610feaad3e0</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:06:20</sys_created_on>
+        <sys_id>3c0b8fb1834022103a609610feaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:06:20</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value>Login Page</value>
+    </sys_translated_text>
+</record_update>

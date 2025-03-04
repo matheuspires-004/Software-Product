@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>pencil</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">58a38bf5830022103a609610feaad354</sp_column>
+        <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:58:43</sys_created_on>
+        <sys_id>dd490371834022103a609610feaad338</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Cadastramento</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_instance_link_dd490371834022103a609610feaad338</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:31:46</sys_updated_on>
+        <title>Cadastramento</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=dd490371834022103a609610feaad338"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>dd490371834022103a609610feaad338</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:58:43</sys_created_on>
+        <sys_id>9d490371834022103a609610feaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:58:43</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>dd490371834022103a609610feaad338</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:58:43</sys_created_on>
+        <sys_id>d1490371834022103a609610feaad33c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:59:31</sys_updated_on>
+        <tablename>sp_instance_link</tablename>
+        <value>Cadastramento</value>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>sp_instance_link_dd490371834022103a609610feaad338</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;pencil&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;58a38bf5830022103a609610feaad354&lt;/sp_column&gt;&lt;sp_page display_value="sc_cat_item"&gt;9f12251147132100ba13a5554ee490f4&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 21:58:43&lt;/sys_created_on&gt;&lt;sys_id&gt;dd490371834022103a609610feaad338&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cadastramento&lt;/sys_name&gt;&lt;sys_package display_value="Software Product" source="x_779492_softwar_0"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Software Product"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_dd490371834022103a609610feaad338&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 22:31:46&lt;/sys_updated_on&gt;&lt;title&gt;Cadastramento&lt;/title&gt;&lt;type&gt;sc_cat_item&lt;/type&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dd490371834022103a609610feaad338"/&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;dd490371834022103a609610feaad338&lt;/documentkey&gt;&lt;fieldname&gt;short_description&lt;/fieldname&gt;&lt;language&gt;pb&lt;/language&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 21:58:43&lt;/sys_created_on&gt;&lt;sys_id&gt;9d490371834022103a609610feaad339&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 21:58:43&lt;/sys_updated_on&gt;&lt;tablename&gt;sp_instance_link&lt;/tablename&gt;&lt;value/&gt;&lt;/sys_translated_text&gt;&lt;sys_translated_text action="INSERT_OR_UPDATE"&gt;&lt;documentkey&gt;dd490371834022103a609610feaad338&lt;/documentkey&gt;&lt;fieldname&gt;title&lt;/fieldname&gt;&lt;language&gt;pb&lt;/language&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 21:58:43&lt;/sys_created_on&gt;&lt;sys_id&gt;d1490371834022103a609610feaad33c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 21:59:31&lt;/sys_updated_on&gt;&lt;tablename&gt;sp_instance_link&lt;/tablename&gt;&lt;value&gt;Cadastramento&lt;/value&gt;&lt;/sys_translated_text&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>570707069</payload_hash>
+        <record_name>Cadastramento</record_name>
+        <reverted_from/>
+        <source>b90a8cd1830022103a609610feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:03:45</sys_created_on>
+        <sys_id>35281f75838022103a609610feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955e4044cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 23:03:45</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>55d09fb9624022100367f336adf1ca65</update_guid>
+        <update_guid_history>55d09fb9624022100367f336adf1ca65:-18766341,55d09fb9624022100367f336adf1ca65:-18766341,5b990f3141402210db96a9464feccae5:-1968747037,f77987310a4022101e1923538f02f5c9:400810856,0579077132402210582e5cc0f8eee642:412014005,dd49037143402210beee215ff046b03c:1253601068,dd490371e640221011abdf625009863a:-1915550876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cadastramento">707c57f9838022103a609610feaad3ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:22:31</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>041e45f25ab343009398fbf736e99000</sys_id>
+        <sys_metadata>dd490371834022103a609610feaad338</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cadastramento</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>sp_instance_link_dd490371834022103a609610feaad338</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_dd490371834022103a609610feaad338">35281f75838022103a609610feaad314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 23:22:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

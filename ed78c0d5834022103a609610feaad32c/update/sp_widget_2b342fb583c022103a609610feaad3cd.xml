@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.main-container{
+	display: flex;
+  min-height: 440px;
+  padding: 0px 32px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 32px;
+  align-self: stretch;
+  background: url(x_779492_softwar_0.banner_option_1.png) lightgray 50% / cover no-repeat;
+}
+
+.container-content{
+	display: flex;
+  max-width: 1246px;
+  padding: 75px 0px 32px 0px;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.container-content-titles{
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+}
+
+.text-title{
+  color: #000000;
+
+  /* Titles/Display */
+  font-family: "Arial";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 60px */
+}
+
+.text-subtitle{
+	color: #000000;
+  /* Paragraphs/Regular */
+  font-family: "Arial";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.container-buttons{
+	display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.button-secondary, .button-primary{
+	display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.button-primary{
+	background-color: #151c35;
+  color: #ffffff;
+}
+
+.button-secondary: {
+	background-color: #979797;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>sftw_section_initial</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SFTW - Section Initial</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:58:00</sys_created_on>
+        <sys_id>2b342fb583c022103a609610feaad3cd</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>SFTW - Section Initial</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_widget_2b342fb583c022103a609610feaad3cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 15:27:26</sys_updated_on>
+        <template><![CDATA[<section class="main-container">
+  
+  <div class="container-content">
+    
+    <div class="container-content-titles">
+      
+      <h1 class="text-title">Portal de materiais</h1>
+      
+      <p class="text-subtitle">Confira e solicite os materiais de limpeza disponíveis no portal</p>
+      
+      <div class="container-buttons">
+        
+        <button class="button-secondary" onclick="window.open('https://github.com/users/matheuspires-004/projects/1/views/1?pane=issue&itemId=99969915', '_blank')">Acessar documentação</button>
+        
+        <button class="button-primary" onclick="window.location.href='/soft?id=request&sys_id=274e9b7d838022103a609610feaad3a5'">Solicitar material</button>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</section>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2b342fb583c022103a609610feaad3cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:58:00</sys_created_on>
+        <sys_id>a094e3f583c022103a609610feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 23:58:00</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

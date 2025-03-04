@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@media (max-width: 767px) {&#13;
+  .wrapper-xl {&#13;
+    padding: 25px 15px !important;&#13;
+  }&#13;
+  .text-4x {&#13;
+    font-size: 3em;&#13;
+  }&#13;
+}&#13;
+&#13;
+body{&#13;
+	padding-bottom: 50px;&#13;
+}</css>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9b2bc7f1834022103a609610feaad327</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:07:22</sys_created_on>
+        <sys_id>c84b0f71834022103a609610feaad380</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>SFTW - Instance Welcome</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_instance_c84b0f71834022103a609610feaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:23:13</sys_updated_on>
+        <title>SFTW - Instance Welcome</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div style=\"margin: 80px;\">\r\n<h2 style=\"color: rgb(255, 255, 255); text-align: center;\">Bem vindo ao portal Software Product!</h2>\r\n<h3 style=\"color: rgb(255, 255, 255); text-align: center;\">Fa&ccedil;a login para solicitar itens, obter ajuda ou relatar um problema</h3>\r\n</div>",
+		"displayValue": "<div style=\"margin: 80px;\">\n<h2 style=\"color: rgb(255, 255, 255); text-align: center;\">Bem vindo ao portal Software Product!</h2>\n<h3 style=\"color: rgb(255, 255, 255); text-align: center;\">Fa&ccedil;a login para solicitar itens, obter ajuda ou relatar um problema</h3>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c84b0f71834022103a609610feaad380"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c84b0f71834022103a609610feaad380</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:07:22</sys_created_on>
+        <sys_id>044b0f71834022103a609610feaad381</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:07:22</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c84b0f71834022103a609610feaad380</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:07:22</sys_created_on>
+        <sys_id>c44bcbf1834022103a609610feaad3b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:10:52</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value>SFTW - Instance Welcome</value>
+    </sys_translated_text>
+</record_update>

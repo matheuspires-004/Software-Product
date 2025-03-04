@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="index_portal - Container 1">4993c779830022103a609610feaad328</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:34:04</sys_created_on>
+        <sys_id>18a38bf5830022103a609610feaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_row_18a38bf5830022103a609610feaad351</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:34:04</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>sp_row_18a38bf5830022103a609610feaad351</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="index_portal - Container 1">4993c779830022103a609610feaad328</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 21:34:04</sys_created_on><sys_id>18a38bf5830022103a609610feaad351</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package><sys_policy/><sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope><sys_update_name>sp_row_18a38bf5830022103a609610feaad351</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 21:34:04</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1512220384</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>b90a8cd1830022103a609610feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:34:04</sys_created_on>
+        <sys_id>90a38bf5830022103a609610feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955dee2c550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:34:04</sys_updated_on>
+        <type>Row</type>
+        <update_guid>94a38bf50d00221054b14a3fb748c753</update_guid>
+        <update_guid_history>94a38bf50d00221054b14a3fb748c753:1512220384</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">307c57f9838022103a609610feaad3a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:22:31</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>10a57ade525648829875983dd3628b01</sys_id>
+        <sys_metadata>18a38bf5830022103a609610feaad351</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>sp_row_18a38bf5830022103a609610feaad351</sys_update_name>
+        <sys_update_version display_value="sp_row_18a38bf5830022103a609610feaad351">90a38bf5830022103a609610feaad354</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 23:22:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

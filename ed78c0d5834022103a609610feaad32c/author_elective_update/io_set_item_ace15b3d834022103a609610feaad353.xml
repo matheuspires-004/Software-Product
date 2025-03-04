@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Cadastrar Usuário">9a3f87f5834022103a609610feaad3d2</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:36:21</sys_created_on>
+        <sys_id>ace15b3d834022103a609610feaad353</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Variáveis do Cadastro.Cadastrar Usuário</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>io_set_item_ace15b3d834022103a609610feaad353</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:36:21</sys_updated_on>
+        <variable_set display_value="Variáveis do Cadastro">94b1573d834022103a609610feaad3a5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>io_set_item_ace15b3d834022103a609610feaad353</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Cadastrar Usuário">9a3f87f5834022103a609610feaad3d2</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 22:36:21</sys_created_on><sys_id>ace15b3d834022103a609610feaad353</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Variáveis do Cadastro.Cadastrar Usuário</sys_name><sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package><sys_policy/><sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope><sys_update_name>io_set_item_ace15b3d834022103a609610feaad353</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 22:36:21</sys_updated_on><variable_set display_value="Variáveis do Cadastro">94b1573d834022103a609610feaad3a5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>934363920</payload_hash>
+        <record_name>Variáveis do Cadastro.Cadastrar Usuário</record_name>
+        <reverted_from/>
+        <source>b90a8cd1830022103a609610feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:36:21</sys_created_on>
+        <sys_id>e4e15b3d834022103a609610feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955e272ff30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:36:21</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>e8e15b3d2a4022103ed12cdf28f5af63</update_guid>
+        <update_guid_history>e8e15b3d2a4022103ed12cdf28f5af63:934363920</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Variáveis do Cadastro.Cadastrar Usuário">f2125f3d834022103a609610feaad3c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:37:19</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>76eec652464d45e8900b5ba200df4f91</sys_id>
+        <sys_metadata>ace15b3d834022103a609610feaad353</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variáveis do Cadastro.Cadastrar Usuário</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>io_set_item_ace15b3d834022103a609610feaad353</sys_update_name>
+        <sys_update_version display_value="io_set_item_ace15b3d834022103a609610feaad353">e4e15b3d834022103a609610feaad364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:37:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

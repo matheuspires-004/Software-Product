@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>SFTW - Section Initial</label>
+        <language>pb</language>
+        <name>sp_widget</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 23:58:00</sys_created_on>
+        <sys_id>e8942fb583c022103a609610feaad32e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFTW - Section Initial</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sys_translated_e8942fb583c022103a609610feaad32e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 23:58:00</sys_updated_on>
+        <value>SFTW - Section Initial</value>
+    </sys_translated>
+</record_update>

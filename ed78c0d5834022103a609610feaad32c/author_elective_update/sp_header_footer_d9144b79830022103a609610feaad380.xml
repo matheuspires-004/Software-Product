@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>sftw_header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SFTW Header</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:36:28</sys_created_on>
+        <sys_id>d9144b79830022103a609610feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFTW Header</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_header_footer_d9144b79830022103a609610feaad380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:36:28</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+</div>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="DELETE">
+        <id>d9144b79830022103a609610feaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:36:27</sys_created_on>
+        <sys_id>0f244779830022103a609610feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:36:27</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>sp_header_footer_d9144b79830022103a609610feaad380</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_header_footer"&gt;&lt;sp_header_footer action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;sftw_header&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;SFTW Header&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;static&gt;false&lt;/static&gt;&lt;sys_class_name&gt;sp_header_footer&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 21:36:28&lt;/sys_created_on&gt;&lt;sys_id&gt;d9144b79830022103a609610feaad380&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;SFTW Header&lt;/sys_name&gt;&lt;sys_package display_value="Software Product" source="x_779492_softwar_0"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Software Product"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_header_footer_d9144b79830022103a609610feaad380&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 21:36:28&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+&lt;!-- your widget template --&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_header_footer&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d9144b79830022103a609610feaad380&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-03 21:36:27&lt;/sys_created_on&gt;&lt;sys_id&gt;0f244779830022103a609610feaad379&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-03 21:36:27&lt;/sys_updated_on&gt;&lt;table&gt;sp_header_footer&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1332292006</payload_hash>
+        <record_name>SFTW Header</record_name>
+        <reverted_from/>
+        <source>b90a8cd1830022103a609610feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:36:28</sys_created_on>
+        <sys_id>572483b9830022103a609610feaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955df05c5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:36:28</sys_updated_on>
+        <type>Header | Footer</type>
+        <update_guid>5b2483b9cd0022107898354955d38d37</update_guid>
+        <update_guid_history>5b2483b9cd0022107898354955d38d37:-1332292006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SFTW Header">d4b40fb9830022103a609610feaad31c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 21:38:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_header_footer">sp_header_footer</sys_db_object>
+        <sys_id>f82406233fbb4786ab9dc931ec047fa4</sys_id>
+        <sys_metadata>d9144b79830022103a609610feaad380</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFTW Header</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>sp_header_footer_d9144b79830022103a609610feaad380</sys_update_name>
+        <sys_update_version display_value="sp_header_footer_d9144b79830022103a609610feaad380">572483b9830022103a609610feaad338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 21:38:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

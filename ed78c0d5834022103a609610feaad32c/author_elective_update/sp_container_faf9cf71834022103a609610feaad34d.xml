@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Login Page - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="login_page">32f94f71834022103a609610feaad379</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:01:49</sys_created_on>
+        <sys_id>faf9cf71834022103a609610feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login Page - Container 1</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_container_faf9cf71834022103a609610feaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:01:49</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>sp_container_faf9cf71834022103a609610feaad34d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Login Page - Container 1</name><order>1</order><semantic_tag/><sp_page display_value="login_page">32f94f71834022103a609610feaad379</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-03 22:01:49</sys_created_on><sys_id>faf9cf71834022103a609610feaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Login Page - Container 1</sys_name><sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package><sys_policy/><sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope><sys_update_name>sp_container_faf9cf71834022103a609610feaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-03 22:01:49</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1224370641</payload_hash>
+        <record_name>Login Page - Container 1</record_name>
+        <reverted_from/>
+        <source>b90a8cd1830022103a609610feaad383</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:01:49</sys_created_on>
+        <sys_id>7ef9cf71834022103a609610feaad34f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1955e07948b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:01:49</sys_updated_on>
+        <type>Container</type>
+        <update_guid>72f9cf71d44022105d61ba0358e84b4f</update_guid>
+        <update_guid_history>72f9cf71d44022105d61ba0358e84b4f:-1224370641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Login Page - Container 1">80ba4fb1834022103a609610feaad370</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-03 22:04:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>1111a255f9c447c8826796bceaebb364</sys_id>
+        <sys_metadata>faf9cf71834022103a609610feaad34d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login Page - Container 1</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>sp_container_faf9cf71834022103a609610feaad34d</sys_update_name>
+        <sys_update_version display_value="sp_container_faf9cf71834022103a609610feaad34d">7ef9cf71834022103a609610feaad34f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-03 22:04:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

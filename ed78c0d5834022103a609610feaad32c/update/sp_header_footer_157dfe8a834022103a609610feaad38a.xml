@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container-footer {&#13;
+  width: 100%;&#13;
+  background-color: #151c35;&#13;
+  text-align: center;&#13;
+  font-size: 125%;&#13;
+  margin-left: auto; &#13;
+  margin-right: auto;&#13;
+  min-height: 60px;&#13;
+}&#13;
+&#13;
+.image-github{&#13;
+	width: 50px;&#13;
+  	height: 50px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>sftw_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>SFTW - Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 15:48:23</sys_created_on>
+        <sys_id>157dfe8a834022103a609610feaad38a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>SFTW - Footer</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_header_footer_157dfe8a834022103a609610feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 15:55:54</sys_updated_on>
+        <template><![CDATA[<div class="container-footer">
+ 
+</div>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>157dfe8a834022103a609610feaad38a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 15:48:22</sys_created_on>
+        <sys_id>461ef68a834022103a609610feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 15:48:22</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
