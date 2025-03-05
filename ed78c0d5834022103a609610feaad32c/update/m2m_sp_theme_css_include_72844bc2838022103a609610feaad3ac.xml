@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_css_include display_value="Min height">6c340fc2838022103a609610feaad312</sp_css_include>
+        <sp_theme display_value="SFTW Theme">f2e303b9830022103a609610feaad32c</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 16:16:33</sys_created_on>
+        <sys_id>72844bc2838022103a609610feaad3ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Min height.SFTW Theme</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_72844bc2838022103a609610feaad3ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 16:16:33</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>
