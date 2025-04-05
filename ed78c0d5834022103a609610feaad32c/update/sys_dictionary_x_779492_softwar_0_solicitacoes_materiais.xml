@@ -38,9 +38,9 @@
         <name>x_779492_softwar_0_solicitacoes</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_779492_softwar_0_materiais">x_779492_softwar_0_materiais</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
         <sys_update_name>sys_dictionary_x_779492_softwar_0_solicitacoes_materiais</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-03 23:40:27</sys_updated_on>
+        <sys_updated_on>2025-04-05 16:05:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

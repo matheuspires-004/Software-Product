@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,opened_by,description,materiais</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>3</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b25f2b1083f062103a609610feaad3f6</sp_column>
+        <sp_page display_value="record_form">efe57b1c83f062103a609610feaad3ca</sp_page>
+        <sp_widget display_value="Record List">93213fd483f062103a609610feaad3d3</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:49:33</sys_created_on>
+        <sys_id>1731371883f062103a609610feaad3db</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_instance_table_1731371883f062103a609610feaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 16:11:47</sys_updated_on>
+        <table>x_779492_softwar_0_solicitacoes</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=1731371883f062103a609610feaad3db"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1731371883f062103a609610feaad3db</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:49:33</sys_created_on>
+        <sys_id>5f31371883f062103a609610feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 15:49:33</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1731371883f062103a609610feaad3db</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:49:33</sys_created_on>
+        <sys_id>1331b71883f062103a609610feaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 15:49:33</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

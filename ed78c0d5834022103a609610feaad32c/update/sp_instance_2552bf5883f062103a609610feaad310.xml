@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b25f2b1083f062103a609610feaad3f6</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:54:21</sys_created_on>
+        <sys_id>2552bf5883f062103a609610feaad310</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_instance_2552bf5883f062103a609610feaad310</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 15:58:46</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1><strong>Lista das solicita&ccedil;&otilde;es de material</strong></h1>\r\n<p style=\"margin-bottom: 50px;\">Acompanhe as solicita&ccedil;&otilde;es e clique no registro para visualizar as principais informa&ccedil;&otilde;es</p>",
+		"displayValue": "<h1><strong>Lista das solicita&ccedil;&otilde;es de material</strong></h1>\n<p style=\"margin-bottom: 50px;\">Acompanhe as solicita&ccedil;&otilde;es e clique no registro para visualizar as principais informa&ccedil;&otilde;es</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=2552bf5883f062103a609610feaad310"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>2552bf5883f062103a609610feaad310</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:54:22</sys_created_on>
+        <sys_id>3152bf5883f062103a609610feaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 15:54:22</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>2552bf5883f062103a609610feaad310</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 15:54:22</sys_created_on>
+        <sys_id>7552bf5883f062103a609610feaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 15:54:22</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

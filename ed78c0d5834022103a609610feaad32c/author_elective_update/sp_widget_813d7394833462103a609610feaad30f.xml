@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  $scope.currentIndex = 0;
+
+  $scope.nextSlide = function() {
+    const total = $scope.data.slides.length;
+    $scope.currentIndex = ($scope.currentIndex + 2) % total;
+  };
+
+  $scope.prevSlide = function() {
+    const total = $scope.data.slides.length;
+    $scope.currentIndex = ($scope.currentIndex - 2 + total) % total;
+  };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.carousel-slide {
+  width: 45%;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  padding: 12px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 16px;
+}
+
+.carousel-btn {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>sftw_-_section_carrosel</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>SFTW - Section Carrosel</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// server script (opcional)
+data.slides = [
+  {
+    title: "Slide 1",
+    description: "Descrição do Slide 1",
+    image: "x_779492_softwar_0.vassoura.png"
+  },
+  {
+    title: "Slide 2",
+    description: "Descrição do Slide 2",
+    image: "x_779492_softwar_0.detergente.png"
+  },
+  {
+    title: "Slide 3",
+    description: "Descrição do Slide 3",
+    image: "default_empty_state_first_time_user.png"
+  }
+];
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 16:41:49</sys_created_on>
+        <sys_id>813d7394833462103a609610feaad30f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SFTW - Section Carrosel</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_widget_813d7394833462103a609610feaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 16:55:34</sys_updated_on>
+        <template><![CDATA[<div class="carousel-container">
+  <div class="carousel-slides">
+    <div class="carousel-slide" 
+         ng-repeat="slide in data.slides" 
+         ng-show="$index === currentIndex || $index === currentIndex + 1">
+      <img ng-src="{{slide.image}}" alt="{{slide.title}}" class="carousel-img" />
+      <div class="carousel-caption">
+        <h3>{{slide.title}}</h3>
+        <p>{{slide.description}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-controls">
+    <button class="carousel-btn" ng-click="prevSlide()">❮</button>
+    <button class="carousel-btn" ng-click="nextSlide()">❯</button>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Software Product">ed78c0d5834022103a609610feaad32c</application>
+        <file_path/>
+        <instance_id>62dafc021bdaca5077c7cb7b234bcb68</instance_id>
+        <instance_name>dev272667</instance_name>
+        <name>sp_widget_813d7394833462103a609610feaad30f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope) {
+  $scope.currentIndex = 0;
+
+  $scope.nextSlide = function() {
+    const total = $scope.data.slides.length;
+    $scope.currentIndex = ($scope.currentIndex + 2) % total;
+  };
+
+  $scope.prevSlide = function() {
+    const total = $scope.data.slides.length;
+    $scope.currentIndex = ($scope.currentIndex - 2 + total) % total;
+  };
+}
+]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.carousel-slide {
+  width: 45%;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.carousel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  padding: 12px;
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 16px;
+}
+
+.carousel-btn {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;sftw_-_section_carrosel&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;SFTW - Section Carrosel&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// server script (opcional)
+data.slides = [
+  {
+    title: "Slide 1",
+    description: "Descrição do Slide 1",
+    image: "x_779492_softwar_0.vassoura.png"
+  },
+  {
+    title: "Slide 2",
+    description: "Descrição do Slide 2",
+    image: "x_779492_softwar_0.detergente.png"
+  },
+  {
+    title: "Slide 3",
+    description: "Descrição do Slide 3",
+    image: "default_empty_state_first_time_user.png"
+  }
+];
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-05 16:41:49&lt;/sys_created_on&gt;&lt;sys_id&gt;813d7394833462103a609610feaad30f&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;SFTW - Section Carrosel&lt;/sys_name&gt;&lt;sys_package display_value="Software Product" source="x_779492_softwar_0"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Software Product"&gt;ed78c0d5834022103a609610feaad32c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_813d7394833462103a609610feaad30f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-05 16:55:34&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="carousel-container"&gt;
+  &lt;div class="carousel-slides"&gt;
+    &lt;div class="carousel-slide" 
+         ng-repeat="slide in data.slides" 
+         ng-show="$index === currentIndex || $index === currentIndex + 1"&gt;
+      &lt;img ng-src="{{slide.image}}" alt="{{slide.title}}" class="carousel-img" /&gt;
+      &lt;div class="carousel-caption"&gt;
+        &lt;h3&gt;{{slide.title}}&lt;/h3&gt;
+        &lt;p&gt;{{slide.description}}&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="carousel-controls"&gt;
+    &lt;button class="carousel-btn" ng-click="prevSlide()"&gt;❮&lt;/button&gt;
+    &lt;button class="carousel-btn" ng-click="nextSlide()"&gt;❯&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>841778006</payload_hash>
+        <record_name>SFTW - Section Carrosel</record_name>
+        <reverted_from/>
+        <source>887d72ca834022103a609610feaad37e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 16:55:34</sys_created_on>
+        <sys_id>9e50cca8833462103a609610feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19606e10d7f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 16:55:34</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>1650cca809346210cf46d6c3baa9adde</update_guid>
+        <update_guid_history>1650cca809346210cf46d6c3baa9adde:841778006,4fce3358ba346210717ba3643a464444:695625714,909e3358da346210b6fc623f70be353d:-1951335278,b73ef718bd3462102db1a2f7c10e8eb4:-1875995451,85fd379419346210a366387bc6dc4532:2024866831,90bd73187b3462103e276d94919c92eb:1547151330,9c9d73188434621006e192b4fad2a5e3:974633470,8d3d7394ae346210f19efd441a943510:-460036528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SFTW - Section Carrosel">4a70c428833462103a609610feaad32e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 16:56:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>2ad9709f8f2e4054bbdb0ea5cfb57ec1</sys_id>
+        <sys_metadata>813d7394833462103a609610feaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SFTW - Section Carrosel</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_scope_delete display_value="">93ff4e6034594b55acf4d9b3773888f1</sys_scope_delete>
+        <sys_update_name>sp_widget_813d7394833462103a609610feaad30f</sys_update_name>
+        <sys_update_version display_value="sp_widget_813d7394833462103a609610feaad30f">9e50cca8833462103a609610feaad3de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 16:56:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

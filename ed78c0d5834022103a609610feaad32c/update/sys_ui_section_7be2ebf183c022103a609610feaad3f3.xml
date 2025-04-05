@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-04 16:27:41</sys_created_on>
-            <sys_id>0217cfc6838022103a609610feaad379</sys_id>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>26847f1c83f062103a609610feaad3bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-04 16:27:41</sys_updated_on>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-04 16:27:41</sys_created_on>
-            <sys_id>8e17cfc6838022103a609610feaad379</sys_id>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>2e847f1c83f062103a609610feaad3bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-04 16:27:41</sys_updated_on>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,29 +32,71 @@
             <element>opened_by</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-04 16:27:41</sys_created_on>
-            <sys_id>8617cfc6838022103a609610feaad37a</sys_id>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>26847f1c83f062103a609610feaad3bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-04 16:27:41</sys_updated_on>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>2e847f1c83f062103a609610feaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>materiais</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-03-04 16:27:41</sys_created_on>
-            <sys_id>8e17cfc6838022103a609610feaad37a</sys_id>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>26847f1c83f062103a609610feaad3bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-03-04 16:27:41</sys_updated_on>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>2e847f1c83f062103a609610feaad3bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-05 16:03:59</sys_created_on>
+            <sys_id>26847f1c83f062103a609610feaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_779492_softwar_0_solicitacoes" sys_domain="global" view="Default view">7be2ebf183c022103a609610feaad3f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-05 16:03:59</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

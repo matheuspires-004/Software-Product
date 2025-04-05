@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="f0ce57bd838022103a609610feaad330" extends="task" label="Solicitações" max_length="40" name="x_779492_softwar_0_solicitacoes" type="collection">
-        <element label="Materiais" max_length="4000" name="materiais" type="glide_list"/>
+    <element audit="true" db_object_id="f0ce57bd838022103a609610feaad330" extends="task" label="Solicitações" max_length="40" name="x_779492_softwar_0_solicitacoes" type="collection">
+        <element label="Materiais" max_length="4000" name="materiais" read_only="true" reference="x_779492_softwar_0_materiais" type="glide_list"/>
     </element>
 </database>
