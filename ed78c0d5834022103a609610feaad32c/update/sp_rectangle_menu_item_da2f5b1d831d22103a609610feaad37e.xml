@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>signal</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Solicitações</label>
+        <order>200</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="dashboard_request">46629b9983d922103a609610feaad3fd</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="Minha Área">8de93a46834022103a609610feaad374</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 13:35:53</sys_created_on>
+        <sys_id>da2f5b1d831d22103a609610feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visualizar Métricas</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_da2f5b1d831d22103a609610feaad37e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 13:35:53</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=da2f5b1d831d22103a609610feaad37e"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>da2f5b1d831d22103a609610feaad37e</documentkey>
+        <fieldname>hint</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 13:35:53</sys_created_on>
+        <sys_id>162f5b1d831d22103a609610feaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 13:35:53</sys_updated_on>
+        <tablename>sp_rectangle_menu_item</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>da2f5b1d831d22103a609610feaad37e</documentkey>
+        <fieldname>label</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 13:35:53</sys_created_on>
+        <sys_id>122f5b1d831d22103a609610feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 13:35:53</sys_updated_on>
+        <tablename>sp_rectangle_menu_item</tablename>
+        <value>Visualizar Métricas</value>
+    </sys_translated_text>
+</record_update>

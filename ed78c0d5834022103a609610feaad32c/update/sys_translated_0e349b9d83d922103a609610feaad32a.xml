@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>SFTW - Report </label>
+        <language>pb</language>
+        <name>sp_widget</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 12:48:05</sys_created_on>
+        <sys_id>0e349b9d83d922103a609610feaad32a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SFTW - Report </sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sys_translated_0e349b9d83d922103a609610feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 12:49:12</sys_updated_on>
+        <value>Copy of Report</value>
+    </sys_translated>
+</record_update>

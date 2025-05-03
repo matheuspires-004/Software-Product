@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ab625bd983d922103a609610feaad3bf</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 12:40:20</sys_created_on>
+        <sys_id>e472971d83d922103a609610feaad341</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_instance_e472971d83d922103a609610feaad341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 13:09:00</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1><strong>M&eacute;tricas das solicita&ccedil;&otilde;es de material</strong></h1>\r\n<p style=\"margin-bottom: 50px;\">Acompanhe as m&eacute;tricas das solicita&ccedil;&otilde;es e um comparativo de acordo com o gr&aacute;fico em quest&atilde;o.</p>",
+		"displayValue": "<h1><strong>M&eacute;tricas das solicita&ccedil;&otilde;es de material</strong></h1>\n<p style=\"margin-bottom: 50px;\">Acompanhe as m&eacute;tricas das solicita&ccedil;&otilde;es e um comparativo de acordo com o gr&aacute;fico em quest&atilde;o.</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=e472971d83d922103a609610feaad341"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e472971d83d922103a609610feaad341</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 12:40:20</sys_created_on>
+        <sys_id>e872971d83d922103a609610feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 12:40:20</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e472971d83d922103a609610feaad341</documentkey>
+        <fieldname>title</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-03 12:40:20</sys_created_on>
+        <sys_id>3072971d83d922103a609610feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-03 12:40:20</sys_updated_on>
+        <tablename>sp_instance</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>
