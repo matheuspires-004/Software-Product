@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Avalie sua experiência">b418a02883c222103a609610feaad351</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 23:09:12</sys_created_on>
+        <sys_id>f368682883c222103a609610feaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Muito bom</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>question_choice_f368682883c222103a609610feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 23:09:12</sys_updated_on>
+        <text>Muito bom</text>
+        <value>1</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f368682883c222103a609610feaad3f6"/>
+</record_update>

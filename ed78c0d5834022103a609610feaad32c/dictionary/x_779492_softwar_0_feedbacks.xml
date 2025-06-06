@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d4c18cdc834a22103a609610feaad3ce" label="Feedbacks" max_length="40" name="x_779492_softwar_0_feedbacks" type="collection">
+        <element label="Comentário" max_length="500" name="comentario" type="string"/>
+        <element choice="1" label="Avaliação" max_length="40" name="avaliacao" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Regular" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Péssimo" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Muito bom" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Regular" language="pb" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Péssimo" language="pb" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Muito bom" language="pb" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Usuário" max_length="32" name="usuario" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="usuario"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, $timeout) {
+ 
+  $scope.submitFeedback = function() {
+    $scope.server.get({
+      action: 'submitFeedback',
+      rating: $scope.data.rating,
+      comments: $scope.data.comments
+    }).then(function(response) {
+      // Mensagem já exibida no HTML
+    });
+  };
+
+  // Abrir o modal ao carregar a página
+  $timeout(function() {
+    $('#feedbackModal').modal('show');
+  }, 500); // tempo pequeno para garantir que o DOM esteja carregado
+
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>feedback</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Feedback</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  if (input && input.action === 'submitFeedback') {
+    var fb = new GlideRecord('x_779492_softwar_0_feedbacks'); // ajuste o nome da tabela
+    fb.initialize();
+    fb.nota = input.rating;
+    fb.comentario = input.comments;
+    fb.usuario = gs.getUserID();
+    fb.insert();
+    data.response = 'Feedback enviado com sucesso!';
+  }
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-06 01:40:26</sys_created_on>
+        <sys_id>ed7144dc834a22103a609610feaad399</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Feedback</sys_name>
+        <sys_package display_value="Software Product" source="x_779492_softwar_0">ed78c0d5834022103a609610feaad32c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Software Product">ed78c0d5834022103a609610feaad32c</sys_scope>
+        <sys_update_name>sp_widget_ed7144dc834a22103a609610feaad399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-06 01:46:22</sys_updated_on>
+        <template><![CDATA[<!-- Modal Bootstrap -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Nos diga o que achou!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <label>Nota:</label>
+        <select class="form-control" ng-model="c.data.rating">
+          <option value="1">⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+        </select>
+
+        <label class="mt-2">Comentário:</label>
+        <textarea class="form-control" ng-model="c.data.comments" rows="3"></textarea>
+
+        <div class="text-success mt-2" ng-if="c.data.response">
+          {{ c.data.response }}
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button class="btn btn-primary" ng-click="c.submitFeedback()">Enviar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
